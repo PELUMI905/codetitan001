@@ -1,0 +1,14 @@
+# Node
+node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+backend/venv/
+backend/.venv/
+
+# Secrets and local database
+backend/.env
+backend/data/*.db
+backend/data/*.sqlite3
